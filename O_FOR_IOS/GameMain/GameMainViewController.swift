@@ -172,8 +172,7 @@ class GameMainViewController: UIViewController, GameMainViewProtocol {
             checkWinX(x: Double(btnsendtag.frame.minX), y: Double(btnsendtag.frame.minY))
         }
     }
- 
-    override func viewDidLoad() {
+     override func viewDidLoad() {
         super.viewDidLoad()
         drawMap()
         self.scrollLabel.text = ""
